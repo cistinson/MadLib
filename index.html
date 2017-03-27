@@ -1,0 +1,92 @@
+<!doctype html>
+  
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mad Libbin'</title>
+  <link rel="stylesheet" href="Madlib.css">
+  <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+</head>
+  
+<body>
+
+  <header>
+    <img src="Images/MAD%20LIBBIN.png" id="headerImage"/>
+  </header>
+  
+  <div class="instructions">
+    <h2 id="how2Play">How to play</h2>
+    <p id="instructions">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+  </div>
+  <div id="formDiv">
+      <div class="forms">
+        <form id="adjForm">
+          <p>Adjective #1</p>
+          <input type="text" id="adj1">
+          <p>Adjective #2</p>
+          <input type="text" id="adj2">
+          <p>Adjective #3</p>
+          <input type="text" id="adj3">
+          <p>Adjective #4</p>
+          <input type="text" id="adj4">
+          <p>Adjective #5</p>
+          <input type="text" id="adj5">    
+          <p>Adjective #6</p>
+          <input type="text" id="adj6">
+          <p>Adjective #7</p>
+          <input type="text" id="adj7">    
+          <p>Adjective #8</p>
+          <input type="text" id="adj8">              
+        </form> 
+    </div>
+    <div class="forms">
+      <form id="verbForm">
+        <p>Verb #1</p>
+        <input type="text" id="verb1">
+        <p>Adverb #2</p>
+        <input type="text" id="verb2">
+      </form> 
+    </div>
+    <div class="forms">    
+      <form id="nounForm">
+        <p>Number between 6 and 10</p>
+        <input type="text" id="noun1">
+        <p>Number between 0 and 1</p>
+        <input type="text" id="noun2">
+        <p>Number between 10 and 50</p>
+        <input type="text" id="noun3">
+        <p>Number between 80 and 90</p>
+        <input type="text" id="noun4">
+        <p>Number between 200 and 300</p>
+        <input type="text" id="noun5">    
+      </form>
+    </div>
+    <div class="forms">
+      <form id="pronounForm">
+        <p>Name of daughter</p>
+        <input type="text" id="pro1">
+        <p>Name of hometown</p>
+        <input type="text" id="pro2">
+        <p>Name of daughter's pet</p>
+        <input type="text" id="pro3">
+        <p>Name of male celebrity</p>
+        <input type="text" id="pro4">
+        <p>Name of male celebrity #2</p>
+        <input type="text" id="pro5">    
+      </form><br />       
+    </div>
+  </div>
+  <div id="madLib"> 
+    <p>HELLLLOOOOOOOOOO</p>
+  </div>
+  
+  <form id="submitButton" onSubmit="libbin()">
+    <input type="submit" value="Lib it!">
+  </form>
+  <form id="resetButton" onSubmit="reset();">
+    <input type="submit" value="Reset">
+  </form>  
+  <script src="Madlib.js"></script>
+</body>  
+    
+</html>
