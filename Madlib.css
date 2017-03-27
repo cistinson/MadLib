@@ -1,7 +1,13 @@
+html{
+  background-color:aliceblue;;
+}
+
 body{
   margin:1rem 10rem;
   padding:2rem;
   font-family: 'Palanquin Dark', sans-serif;
+  background: #ffffff;
+  border-radius: 5rem;
 }
 
 header{
