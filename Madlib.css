@@ -1,0 +1,66 @@
+body{
+  margin:1rem 10rem;
+  padding:2rem;
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+header{
+  display:flex;
+  justify-content: center;
+}
+
+h2{
+  font-size:3rem;
+  padding:0;
+  margin:0;
+}
+
+.instructions{
+  text-align: center;
+}
+
+#formDiv{
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+#formDiv p, #madLib{
+  text-align: center;
+  padding:0;
+  margin: 0;
+}
+
+#submitButton, #resetButton{
+  text-align: center
+}
+
+#submitButton input, #resetButton input{
+  font-size:2rem;
+  padding:0 5rem;
+  background-color:#2EB2FF;
+  color:#FFFA52;
+  font-family: 'Palanquin Dark', sans-serif;
+  border-radius:0;
+  transition: border-radius 2s;
+}
+
+#submitButton input:hover, #resetButton input:hover{
+  background-color:#FFFA52;
+  color:#2EB2FF;
+  border-radius:10rem;
+}
+
+.forms{
+  text-align: center;
+}
+
+#resetButton{
+  display: none;
+}
+
+#madLib{
+  display:none;
+  font-size:1.5rem;
+  padding: 2rem 0;
+}
